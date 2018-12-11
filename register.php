@@ -5,7 +5,7 @@
 		//https://username.herokuapp.com/execute.php
 		$WEBHOOK_URL = 'https://test82.herokuapp.com';
 		//inserite il vostro token che vi ha fornito l'utente telegram @botfather
-		$BOT_TOKEN = '487428045:AAFHYEqqftrK7xJvW8_9anPiodBw0HHuWkE';
+		$BOT_TOKEN = '715016661:AAEoZcMuTRVtSx9Vw8gAuCq7W3CRTUUsXzs';
 
 		// NON APPORTARE MODIFICHE NEL CODICE SEGUENTE
 		$API_URL = 'https://api.telegram.org/bot' . $BOT_TOKEN .'/';
