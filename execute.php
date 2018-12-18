@@ -45,8 +45,12 @@
 		header("Content-Type: application/json");
 		//i parametri sono cosa voglio mandare indietro al mio utente, rimando il testo che
 		//ho ricevuto e che si trova nella variabile $text
+		if $text == "Data"{
+			$parameters = array('chat_id' => $chatId, "text" => date());
+		}
+		else{
 		$parameters = array('chat_id' => $chatId, "text" => $text);
-		
+		}
 	
 		
 		//aggiungo il comando di invio
